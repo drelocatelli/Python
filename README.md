@@ -6,11 +6,19 @@ módulos intro: [Python 101](https://python101.pythonlibrary.org/)
 
 ### Módulos úteis:
 
+[tkinter](https://docs.python.org/3/library/tkinter.html)
+
 [os](https://python101.pythonlibrary.org/chapter16_os.html)
 
 [email / smtplib](https://python101.pythonlibrary.org/chapter17_smtplib.html)
 
-======
+[urllib](https://docs.python.org/3/library/urllib.html#module-urllib)
+
+[+ module list](https://docs.python.org/3/py-modindex.html)
+
+
+
+------
 
 ### Meus módulos:
 
