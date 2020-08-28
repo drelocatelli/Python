@@ -14,6 +14,8 @@ módulos intro: [Python 101](https://python101.pythonlibrary.org/)
 
 [urllib](https://docs.python.org/3/library/urllib.html#module-urllib)
 
+[sys](https://python101.pythonlibrary.org/chapter20_sys.html)
+
 [+ module list](https://docs.python.org/3/py-modindex.html)
 
 
