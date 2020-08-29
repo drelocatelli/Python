@@ -16,6 +16,8 @@ módulos intro: [Python 101](https://python101.pythonlibrary.org/)
 
 [sys](https://python101.pythonlibrary.org/chapter20_sys.html)
 
+[Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc.ptbr/)
+
 [+ module list](https://docs.python.org/3/py-modindex.html)
 
 
