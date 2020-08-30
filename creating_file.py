@@ -1,10 +1,9 @@
 import os
-from pathlib import Path
 
 # verificando se existe diretório
-print(Path("assets/creating_file/").exists())
+print(os.path.exists("assets/creating_file/"))
 
-if Path("assets/creating_file/").exists() == False:
+if os.path.exists("assets/creating_file/") == False:
     # cria diretorio
     os.mkdir("assets/creating_file")
     # cria arquivo no diretorio
