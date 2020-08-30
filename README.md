@@ -57,3 +57,12 @@ python local de instalação:
 ex: 
 
 %userprofile%/Anaconda3
+
+
+
+### Canais para estudar Python
+
+[Didática Tech](https://www.youtube.com/channel/UC0BiVs5EYh57gzGVvhddjsA)
+
+[Eletrônica e programação]([https://www.youtube.com/c/Eletr%C3%B4nicaePrograma%C3%A7%C3%A3o/videos](https://www.youtube.com/c/EletrônicaeProgramação/videos))
+
