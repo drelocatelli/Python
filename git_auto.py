@@ -18,15 +18,15 @@ print("\n$ git status")
 os.system("git status")
 
 while(True):
-    prosseguir = input("PROSSEGUIR? [ENTER / n] $ ")
+    prosseguir = input("PROSSEGUIR? [y / n] $ ")
 
-    if prosseguir == "n":
+    if prosseguir == "n" or prosseguir == "":
         cmde = input("[COMANDO ADICIONAL] $ ")
         os.system(cmde)
         print("\n$ git status \n")
         os.system("git status")
         continue
-    if prosseguir == "":
+    if prosseguir == "y":
         break
 
 print("\n$ git commit -m '...' ")
@@ -37,8 +37,12 @@ if commit_msg == "y":
     os.system(f"git commit -m '{commit_msg}'")
     print("\n$ git push")
     os.system("git push")
+    print("\nCredenciais salvas no cachê\n")
+    os.system("git config --global credential.helper cache")
 else:
     os.system("git commit -m '...'")
     print("\n$ git push")
     os.system("git push")
-    
+    print("\nCredenciais salvas no cachê\n")
+    os.system("git config --global credential.helper cache")
+
