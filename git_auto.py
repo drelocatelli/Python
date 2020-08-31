@@ -25,6 +25,10 @@ if commit_msg == "y":
     commit_msg = input("[MSG] $ ")
     print(f"$ git commit -m '{commit_msg}'")
     os.system(f"git commit -m '{commit_msg}'")
+    print("\n$ git push")
+    os.system("git push")
 else:
     os.system("git commit -m '...'")
+    print("\n$ git push")
+    os.system("git push")
     
