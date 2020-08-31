@@ -37,12 +37,8 @@ if commit_msg == "y":
     os.system(f"git commit -m '{commit_msg}'")
     print("\n$ git push")
     os.system("git push")
-    print("\nCredenciais salvas no cachê\n")
-    os.system("git config --global credential.helper cache")
 else:
     os.system("git commit -m '...'")
     print("\n$ git push")
     os.system("git push")
-    print("\nCredenciais salvas no cachê\n")
-    os.system("git config --global credential.helper cache")
 
