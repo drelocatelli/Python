@@ -17,13 +17,17 @@ os.system("git add *")
 print("\n$ git status")
 os.system("git status")
 
-prosseguir = input("PROSSEGUIR? [ENTER / n] $ ")
+while(True):
+    prosseguir = input("PROSSEGUIR? [ENTER / n] $ ")
 
-if prosseguir == "n":
-    cmde = input("[COMANDO ADICIONAL] $ ")
-    os.system(cmde)
-    print("\n$ git status \n")
-    os.system("git status")
+    if prosseguir == "n":
+        cmde = input("[COMANDO ADICIONAL] $ ")
+        os.system(cmde)
+        print("\n$ git status \n")
+        os.system("git status")
+        continue
+    if prosseguir == "":
+        break
 
 print("\n$ git commit -m '...' ")
 commit_msg = input("Enviar msg no commit? [y] $ ")
