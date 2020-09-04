@@ -34,6 +34,7 @@ módulos intro: [Python 101](https://python101.pythonlibrary.org/)
 
 [Executa comando desejado para todas as pastas](/cmd_for_all_dir.py)
 
+[Git automático](/git_auto.py)
 
 
 ------
