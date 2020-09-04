@@ -32,6 +32,8 @@ módulos intro: [Python 101](https://python101.pythonlibrary.org/)
 
 [Printa titulo grande](/title.py)
 
+[Executa comando desejado para todas as pastas](/cmd_for_all_dir.py)
+
 
 
 ------
