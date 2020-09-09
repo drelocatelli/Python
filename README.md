@@ -66,8 +66,11 @@ ex:
 
 
 ### Study Python & others
-[Agendando tarefas no Linux com CRON](https://e-tinet.com/linux/crontab/)
+[Agendando tarefas no Linux com CRON](https://e-tinet.com/linux/crontab/) | 
+[sudo cron](https://sobrelinux.info/questions/248/how-to-run-a-cron-job-using-the-sudo-command) | [crontab generator](http://www.crontabgenerator.com/)
 
 [Didática Tech](https://www.youtube.com/channel/UC0BiVs5EYh57gzGVvhddjsA)
 
 [Eletrônica e programação](https://www.youtube.com/c/EletrônicaeProgramação/videos)
+
+[Geeks for Geeks](https://www.geeksforgeeks.org/python-programming-language/?ref=leftbar)
