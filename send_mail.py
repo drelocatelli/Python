@@ -1,8 +1,5 @@
-import sys, os
-
-if 'yagmail' not in sys.modules:
-    print('Instalando módulo yagmail')
-    os.system("pip3 install yagmail")
+import os
+os.system('pip3 install yagmail')
 
 import yagmail
 
@@ -24,6 +21,7 @@ def send_gmail(remetente, destinatario, senha, assunto, mensagem):
 remetente = input("[DE] $ ")
 from getpass import getpass
 senha = getpass("[SENHA DO E-MAIL] $ ")
+print(senha)
 destinatario = input("[PARA] $ ")
 assunto = input("[ASSUNTO] $ ")
 mensagem = input("[MENSAGEM] $ ")
