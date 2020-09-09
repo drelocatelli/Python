@@ -65,7 +65,8 @@ ex:
 
 
 
-### Canais para estudar Python
+### Study Python & others
+[Agendando tarefas no Linux](https://e-tinet.com/linux/crontab/)
 
 [Didática Tech](https://www.youtube.com/channel/UC0BiVs5EYh57gzGVvhddjsA)
 
