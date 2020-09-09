@@ -71,3 +71,5 @@ ex:
 [Didática Tech](https://www.youtube.com/channel/UC0BiVs5EYh57gzGVvhddjsA)
 
 [Eletrônica e programação](https://www.youtube.com/c/EletrônicaeProgramação/videos)
+
+[Geeks for Geeks](https://www.geeksforgeeks.org/python-programming-language/?ref=leftbar)
