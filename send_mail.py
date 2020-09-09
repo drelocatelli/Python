@@ -1,20 +1,31 @@
-def send_gmail(remetente, destinatario, senha, mensagem):
-    import smtplib
-    email_from = remetente
-    email_to = destinatario
-    email_pass = senha
+import sys, os
+
+if 'yagmail' not in sys.modules:
+    print('Instalando módulo yagmail')
+    os.system("pip3 install yagmail")
+
+import yagmail
+
+def send_gmail(remetente, destinatario, senha, assunto, mensagem):
+
+    email = {}
+    email['from'] = remetente
+    email['to'] = destinatario
+    email['pass'] = senha
+    email['assunto'] = assunto
+    email['msg'] = mensagem
     smtp = "smtp.gmail.com"
-    server = smtplib.SMTP(smtp, 587)
-    server.starttls()
-    server.login(email_from, email_pass)
-    msg = mensagem
-    server.sendmail(email_from, email_to, msg)
-    server.quit()
-    print("Sucesso ao enviar o email")
     
-remetente = input("[E-MAIL QUE ENVIARÁ A MSG] $ ")
-senha = input("[SENHA DO E-MAIL] $ ")
-destinatario = input("[E-MAIL QUE RECEBERÀ A MSG] $ ")
+    yag = yagmail.SMTP(email['from'], email['pass'])
+    yag.send(to = email['to'], subject = email['assunto'], contents = email['msg'])
+
+    print(f"[Sucesso] E-mail enviado para: {email['to']}")
+    
+remetente = input("[DE] $ ")
+from getpass import getpass
+senha = getpass("[SENHA DO E-MAIL] $ ")
+destinatario = input("[PARA] $ ")
+assunto = input("[ASSUNTO] $ ")
 mensagem = input("[MENSAGEM] $ ")
 
-send_gmail(remetente, destinatario, senha, mensagem)
+send_gmail(remetente, destinatario, senha, assunto, mensagem)
