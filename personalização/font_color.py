@@ -3,4 +3,3 @@ def font_color(texto, cor):
 
 # font_color('Mensagem colorida!', 'cor em ansi')
 # https://raccoon.ninja/pt/dev-pt/tabela-de-cores-ansi-python/
-font_color('Mensagem colorida!', '\033[1;36m')
