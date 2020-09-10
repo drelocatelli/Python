@@ -16,7 +16,15 @@ def send_gmail(remetente, destinatario, senha, assunto, mensagem):
     yag = yagmail.SMTP(email['from'], email['pass'])
     yag.send(to = email['to'], subject = email['assunto'], contents = email['msg'])
 
-    print(f"[Sucesso] E-mail enviado para: {email['to']}")
+    print('\n')
+    print("="*50)
+    print(f"DE: {email['from']}")
+    print(f"PARA: {email['to']}")
+    print(f"ASSUNTO: {email['assunto']}")
+    print(f"MENSAGEM: {email['msg']}")
+    print("="*50)
+    print("E-mail enviado!")
+    print('\n')
     
 remetente = input("[DE] $ ")
 from getpass import getpass
