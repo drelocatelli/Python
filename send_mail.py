@@ -29,7 +29,9 @@ def send_gmail(remetente, destinatario, senha, assunto, mensagem):
 remetente = input("[DE] $ ")
 from getpass import getpass
 senha = getpass("[SENHA DO E-MAIL] $ ")
-print(senha)
+for letter in senha:
+    print("*", end="")
+print('\n')
 destinatario = input("[PARA] $ ")
 assunto = input("[ASSUNTO] $ ")
 mensagem = input("[MENSAGEM] $ ")
