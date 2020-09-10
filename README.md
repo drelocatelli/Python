@@ -65,7 +65,9 @@ ex:
 
 
 
-### Study Python & others
+### Study Python & articles
+[Python OOP](https://realpython.com/python3-object-oriented-programming/#how-to-define-a-class)
+
 [Agendando tarefas no Linux com CRON](https://e-tinet.com/linux/crontab/) | 
 [sudo cron](https://sobrelinux.info/questions/248/how-to-run-a-cron-job-using-the-sudo-command) | [crontab generator](http://www.crontabgenerator.com/)
 
