@@ -33,6 +33,23 @@ def font_color(texto, cor):
     CROSSED = "\033[9m"
     END = "\033[0m"
 
+    WHITE_BG = "\033[48;2;255;255;255m"
+    BLACK_BG = "\033[1;40m"
+    RED_BG = "\033[1;41m"
+    GREEN_BG = "\033[1;42m"
+    YELLOW_BG = "\033[1;43m"
+    BLUE_BG = "\033[1;44m"
+    MAGENTA_BG = "\033[1;45m"
+    CYAN_BG = "\033[1;46m"
+    LIGHT_GRAY_BG = "\033[1;47m"
+    DARK_GRAY_BG = "\033[1;100m"
+    LIGHT_RED_BG = "\033[1;101m"
+    LIGHT_GREEN_BG = "\033[1;102m"
+    LIGHT_YELLOW_BG = "\033[1;103m"
+    LIGHT_BLUE_BG = "\033[1;104m"
+    LIGHT_MAGENTA_BG = "\033[1;105m"
+    LIGHT_CYAN_BG = "\033[1;106m"
+
     if bool(cor) == True:
         print(eval(cor) + texto + '\033[0m')
 
@@ -41,5 +58,6 @@ def font_color(texto, cor):
 # font_color('Mensagem colorida!', 'cor em ansi')
 # \033[38;2;<r>;<g>;<b>m     #Select RGB foreground color
 # \033[48;2;<r>;<g>;<b>m     #Select RGB background color
+# EXAMPLE:
 # \033[38;2;255;82;197;48;2;155;106;0mText
 # https://raccoon.ninja/pt/dev-pt/tabela-de-cores-ansi-python/
