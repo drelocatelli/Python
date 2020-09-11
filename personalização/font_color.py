@@ -1,9 +1,13 @@
-def font_color(texto, cor):
+def font_color_choose(texto, cor):
+    # font_color_choose('Texto legal', "\033[0;30m")
     print(cor + texto + '\033[0m')
 
-def font_color_choose(texto, cor):
+def font_color(texto, cor):
+    # font_color('Texto legal', "UNDERLINE, white")
     cor = cor.upper()
+    cor = cor.replace(",","+")
 
+    WHITE = "\033[38;2;255;255;255m"
     BLACK = "\033[0;30m"
     RED = "\033[0;31m"
     GREEN = "\033[0;32m"
@@ -35,4 +39,7 @@ def font_color_choose(texto, cor):
 
 
 # font_color('Mensagem colorida!', 'cor em ansi')
+# \033[38;2;<r>;<g>;<b>m     #Select RGB foreground color
+# \033[48;2;<r>;<g>;<b>m     #Select RGB background color
+# \033[38;2;255;82;197;48;2;155;106;0mText
 # https://raccoon.ninja/pt/dev-pt/tabela-de-cores-ansi-python/
