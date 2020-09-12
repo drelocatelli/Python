@@ -53,7 +53,14 @@ def font_color(texto, cor):
     if bool(cor) == True:
         print(eval(cor) + texto + '\033[0m')
 
-
+def title(title):
+    size = 75
+    separator = "▁"*size
+    print("\n")
+    print(separator)
+    font_color(title.center(size).upper(),"black, white_bg")
+    # print(title.center(50))
+    print(separator)
 
 # font_color('Mensagem colorida!', 'cor em ansi')
 # \033[38;2;<r>;<g>;<b>m     #Select RGB foreground color
