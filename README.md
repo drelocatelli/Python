@@ -67,7 +67,7 @@ ex:
 
 
 ### Study Python & articles
-[drag-and-drop GUI generator for Python and Tkinter](htdrag-and-drop GUI generator for Python and Tkintertps://sourceforge.net/projects/page/files/latest/download)
+[drag-and-drop GUI generator for Python and Tkinter](https://sourceforge.net/projects/page/files/latest/download)
 
 [Python OOP](https://realpython.com/python3-object-oriented-programming/#how-to-define-a-class)
 
