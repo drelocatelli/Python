@@ -67,6 +67,8 @@ ex:
 
 
 ### Study Python & articles
+[PySimpleGUI](https://pypi.org/project/PySimpleGUI/)
+
 [python gui builder](http://www.python-gui-builder.com/)
 
 [Python OOP](https://realpython.com/python3-object-oriented-programming/#how-to-define-a-class)
