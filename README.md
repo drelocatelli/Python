@@ -67,6 +67,12 @@ ex:
 
 
 ### Study Python & articles
+[Python easyGUI](https://pythonhosted.org/easygui/index.html)
+
+[PySimpleGUI](https://pypi.org/project/PySimpleGUI/)
+
+[python gui builder](http://www.python-gui-builder.com/)
+
 [Python OOP](https://realpython.com/python3-object-oriented-programming/#how-to-define-a-class)
 
 [Agendando tarefas no Linux com CRON](https://e-tinet.com/linux/crontab/) | 
