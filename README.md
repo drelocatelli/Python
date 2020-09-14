@@ -67,7 +67,7 @@ ex:
 
 
 ### Study Python & articles
-[drag-and-drop GUI generator for Python and Tkinter](https://stackoverflow.com/questions/14142194/is-there-a-gui-design-app-for-the-tkinter-grid-geometry/29053928)
+[python gui builder](http://www.python-gui-builder.com/)
 
 [Python OOP](https://realpython.com/python3-object-oriented-programming/#how-to-define-a-class)
 
