@@ -67,7 +67,7 @@ ex:
 
 
 ### Study Python & articles
-[Python easyGUI](https://pythonhosted.org/easygui/tutorial.html)
+[Python easyGUI](https://pythonhosted.org/easygui/index.html)
 
 [PySimpleGUI](https://pypi.org/project/PySimpleGUI/)
 
