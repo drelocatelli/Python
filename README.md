@@ -67,6 +67,8 @@ ex:
 
 
 ### Study Python & articles
+[auto-py-to-exe](https://pypi.org/project/auto-py-to-exe/)
+
 [Python easyGUI](https://pythonhosted.org/easygui/index.html)
 
 [PySimpleGUI](https://pypi.org/project/PySimpleGUI/)
