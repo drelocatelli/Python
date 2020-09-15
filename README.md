@@ -44,6 +44,8 @@ módulos intro: [Python 101](https://python101.pythonlibrary.org/)
 
 [personalização](/personalização)
 
+[modulos em GUI](/GUI)
+
 ------
 
 ### Encontrando módulos padrões ou instalados:
