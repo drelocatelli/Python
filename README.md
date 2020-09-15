@@ -18,12 +18,13 @@ módulos intro: [Python 101](https://python101.pythonlibrary.org/)
 
 [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc.ptbr/)
 
-[+ module list](https://docs.python.org/3/py-modindex.html)
-
 [auto-py-to-exe](https://pypi.org/project/auto-py-to-exe/)
 
 [Python easyGUI](https://pythonhosted.org/easygui/index.html)
 
+
+
+[+ module list](https://docs.python.org/3/py-modindex.html)
 
 ------
 
