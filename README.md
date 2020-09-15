@@ -24,9 +24,6 @@ módulos intro: [Python 101](https://python101.pythonlibrary.org/)
 
 [Python easyGUI](https://pythonhosted.org/easygui/index.html)
 
-[PySimpleGUI](https://pypi.org/project/PySimpleGUI/)
-
-
 
 ------
 
