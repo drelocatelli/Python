@@ -20,6 +20,12 @@ módulos intro: [Python 101](https://python101.pythonlibrary.org/)
 
 [+ module list](https://docs.python.org/3/py-modindex.html)
 
+[auto-py-to-exe](https://pypi.org/project/auto-py-to-exe/)
+
+[Python easyGUI](https://pythonhosted.org/easygui/index.html)
+
+[PySimpleGUI](https://pypi.org/project/PySimpleGUI/)
+
 
 
 ------
@@ -67,11 +73,6 @@ ex:
 
 
 ### Study Python & articles
-[auto-py-to-exe](https://pypi.org/project/auto-py-to-exe/)
-
-[Python easyGUI](https://pythonhosted.org/easygui/index.html)
-
-[PySimpleGUI](https://pypi.org/project/PySimpleGUI/)
 
 [python gui builder](http://www.python-gui-builder.com/)
 
