@@ -42,6 +42,8 @@ módulos intro: [Python 101](https://python101.pythonlibrary.org/)
 
 [Envio de e-mail gmail](/send_mail.py)
 
+[Envio de e-mail gmail v2](/gmail_sender_V2)
+
 [personalização](/personalização)
 
 [modulos em GUI](/GUI)
