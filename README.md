@@ -48,6 +48,8 @@ módulos intro: [Python 101](https://python101.pythonlibrary.org/)
 
 [modulos em GUI](/GUI)
 
+[Telegram bot alerter](/telegram_bot.py)
+
 ------
 
 ### Encontrando módulos padrões ou instalados:
