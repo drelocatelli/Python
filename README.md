@@ -1,5 +1,5 @@
 # PYTHON3 TO PYTHON ALIAS
-`echo "alias python='python3'" > ~/.bashrc && source ~/.bashrc`
+`echo "\nalias python='python3'" >> ~/.bashrc && source ~/.bashrc`
 
 # PYTHON LINKS
 
