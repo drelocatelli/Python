@@ -1,3 +1,6 @@
+# PYTHON3 TO PYTHON ALIAS
+echo "alias python='python3'" > ~/.bashrc && source ~/.bashrc
+
 # PYTHON LINKS
 
 módulos intro: [Python 101](https://python101.pythonlibrary.org/)
