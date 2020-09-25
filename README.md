@@ -82,6 +82,8 @@ ex:
 
 [glade GTK](https://glade.gnome.org/)
 
+[pyQT](https://wiki.python.org.br/ComoUsarPyQt)
+
 ### Study Python & articles
 [Python Classes e Métodos - Em Menos de 10 Minutos](https://www.youtube.com/watch?v=j6B8shHXzks)
 
