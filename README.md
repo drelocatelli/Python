@@ -94,3 +94,5 @@ ex:
 [Eletrônica e programação](https://www.youtube.com/c/EletrônicaeProgramação/videos)
 
 [Geeks for Geeks](https://www.geeksforgeeks.org/python-programming-language/?ref=leftbar)
+
+[echo command in linux](https://www.tecmint.com/echo-command-in-linux/)
