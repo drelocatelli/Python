@@ -80,6 +80,8 @@ ex:
 ### Python GUI
 [python gui builder](http://www.python-gui-builder.com/)
 
+[glade GTK](https://glade.gnome.org/)
+
 ### Study Python & articles
 [Python Classes e Métodos - Em Menos de 10 Minutos](https://www.youtube.com/watch?v=j6B8shHXzks)
 
