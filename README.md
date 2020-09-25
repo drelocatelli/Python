@@ -84,6 +84,8 @@ ex:
 
 [pyQT](https://www.riverbankcomputing.com/static/Docs/PyQt5/)
 
+[Install pyqt5](/install_Pyqt5.py)
+
 ### Study Python & articles
 [Python Classes e Métodos - Em Menos de 10 Minutos](https://www.youtube.com/watch?v=j6B8shHXzks)
 
