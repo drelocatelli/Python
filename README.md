@@ -77,12 +77,11 @@ ex:
 
 %userprofile%/Anaconda3
 
-
+### Python GUI
+[python gui builder](http://www.python-gui-builder.com/)
 
 ### Study Python & articles
 [Python Classes e Métodos - Em Menos de 10 Minutos](https://www.youtube.com/watch?v=j6B8shHXzks)
-
-[python gui builder](http://www.python-gui-builder.com/)
 
 [Python OOP](https://realpython.com/python3-object-oriented-programming/#how-to-define-a-class)
 
