@@ -82,7 +82,7 @@ ex:
 
 [glade GTK](https://glade.gnome.org/)
 
-[pyQT](https://wiki.python.org.br/ComoUsarPyQt)
+[pyQT](https://www.riverbankcomputing.com/static/Docs/PyQt5/)
 
 ### Study Python & articles
 [Python Classes e Métodos - Em Menos de 10 Minutos](https://www.youtube.com/watch?v=j6B8shHXzks)
