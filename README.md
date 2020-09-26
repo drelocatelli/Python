@@ -59,7 +59,7 @@ módulos intro: [Python 101](https://python101.pythonlibrary.org/)
 [Telegram bot alerter](/telegram_bot.py)
 
 
-[Página gerador de texto colorido em Python](https://codepen.io/drelocatelli/pen/mdPowgB)
+[Página gerador de texto colorido em Python](https://codepen.io/drelocatelli/full/mdPowgB)
 
 ------
 
