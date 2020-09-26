@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de cores em Python</title>
+</head>
+<body>
+    <table width="500px" align="center">
+        <tr>
+            <td colspan="3"><center><h3>Gerador de cores em Python</h3><br><a href="https://github.com/drelocatelli/python_examples/blob/master/personaliza%C3%A7%C3%A3o/font_color.py">módulo</a></center></td>
+        </tr>
+        <tr>
+            <td><label for="texto">Texto:</label></td>
+        </tr>
+        <tr>
+            <td colspan="3"><input type="text" id="texto" value="Digite um texto..." placeholder="Digite um texto..." autofocus></td>
+        </tr>
+        <tr>
+            <td><label for="text-color">Cor do texto:</label></td>
+            <td><label for="text-background">Fundo do texto:</label></td>
+            <td><label for="text-style">Estilo:</label></td>
+        </tr>
+        <tr align="center">
+            <td>
+                <select id="text-color">
+                    <option value="\033[38;2;255;255;255m">Padrão</option>
+                    <option value="\033[0;30m">Preto</option>
+                    <option value="\033[0;31m">Vermelho</option>
+                    <option value="\033[0;32m">Verde</option>
+                    <option value="\033[0;33m">Marrom</option>
+                    <option value="\033[0;34m">Azul</option>
+                    <option value="\033[0;35m">Roxo</option>
+                    <option value="\033[0;36m">Ciano</option>
+                    <option value="\033[0;37m">Cinza Claro</option>
+                    <option value="\033[1;32m">Verde Claro</option>
+                    <option value="\033[1;33m">Amarelo</option>
+                </select>
+            </td>
+            <td>
+                <select id="text-background">
+                    <option value="">Padrão</option>
+                    <option value="\033[1;40m">Preto</option>
+                    <option value="\033[1;41m">Vermelho</option>
+                    <option value="\033[1;42m">Verde</option>
+                    <option value="\033[1;44m">Azul</option>
+                    <option value="\033[1;105m">Magenta</option>
+                    <option value="\033[1;46m">Ciano</option>
+                    <option value="\033[1;47m">Cinza Claro</option>
+                    <option value="\033[1;102m">Verde Claro</option>
+                    <option value="\033[1;43m">Amarelo</option>
+                </select>
+            </td>
+            <td>
+                <select id="text-style">
+                    <option value="">Regular</option>
+                    <option value="\033[1m">Negrito</option>
+                    <option value="\033[3m">Itálico</option>
+                    <option value="\033[4m">Underline</option>
+                    <option value="\033[9m">Riscado</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="code">Código gerado:</label></td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <input type="text" placeholder="O código gerado aparecerá aqui" id="code">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+
+<style>
+    *{font-family: sans-serif;}
+    table{border:1px dotted #888; padding:0 12px;}
+    table td{padding:6px 0;}
+    table input{width:99vh;}
+    table tr:nth-child(4) td,table tr:nth-child(5) td{width: 50px;}
+    table tr:nth-child(4) td{text-align: center!important;}
+</style>
+
+<script>
+    let input = {
+        texto: document.querySelector('#texto'),
+        text_color: document.querySelector('#text-color'),
+        text_background: document.querySelector('#text-background'),
+        text_style: document.querySelector('#text-style'),
+        button: document.querySelector('#gen'),
+        code: document.querySelector('#code')
+    }
+    console.log(input)
+
+    input.code.onclick = function(){
+        input.code.select()
+        document.execCommand('copy')
+    }
+
+    input.texto.onkeyup = function(){
+        input.code.value = `print("${input.text_color.value}${input.text_background.value}${input.text_style.value}${input.texto.value}\\033[0m")`
+    }
+
+    input.text_color.onchange = function(){
+        input.code.value = `print("${input.text_color.value}${input.text_background.value}${input.text_style.value}${input.texto.value}\\033[0m")`
+    }
+
+    input.text_background.onchange = function(){
+        input.code.value = `print("${input.text_color.value}${input.text_background.value}${input.text_style.value}${input.texto.value}\\033[0m")`
+    }
+
+    input.text_style.onchange = function(){
+        input.code.value = `print("${input.text_color.value}${input.text_background.value}${input.text_style.value}${input.texto.value}\\033[0m")`
+    }
+</script>
