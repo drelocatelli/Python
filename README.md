@@ -3,6 +3,7 @@
 
 # Python executavel
 `chmod +x script.py`
+
 `#!/usr/bin/env python`
 
 # PYTHON LINKS
