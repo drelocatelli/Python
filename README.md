@@ -1,6 +1,10 @@
 # PYTHON3 TO PYTHON ALIAS
 `echo "alias python='python3'" >> ~/.bashrc && source ~/.bashrc`
 
+# Python executavel
+`chmod +x script.py`
+`#!/usr/bin/env python`
+
 # PYTHON LINKS
 
 módulos intro: [Python 101](https://python101.pythonlibrary.org/)
