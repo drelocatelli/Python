@@ -1,4 +1,4 @@
-names = ["Andressa", "Marcus", "Adriano", "Maria", "Fulano", "Ciclano"]
+names = ["Andressa", "Maria", "Fulano", "Ciclano"]
 values = 0
 
     
