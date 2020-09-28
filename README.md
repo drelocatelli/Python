@@ -59,7 +59,7 @@ módulos intro: [Python 101](https://python101.pythonlibrary.org/)
 [Telegram bot alerter](/telegram_bot.py)
 
 
-[formatador de texto automatico de Python](https://cdpn.io/drelocatelli/debug/mdPowgB/jVkpobmyxdYA)
+[formatador de texto automatico de Python](https://codepen.io/drelocatelli/full/mdPowgB)
 
 ------
 
