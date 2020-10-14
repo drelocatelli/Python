@@ -36,7 +36,7 @@ módulos intro: [Python 101](https://python101.pythonlibrary.org/)
 
 ------
 
-### Meus módulos:
+### Alguns de meus módulos:
 
 [Incluindo scripts python](/importing_scripts.py)
 
