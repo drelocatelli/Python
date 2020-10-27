@@ -10,6 +10,8 @@
 
 módulos intro: [Python 101](https://python101.pythonlibrary.org/)
 
+[Operators](https://www.w3schools.com/python/python_operators.asp)
+
 
 
 ### Módulos úteis:
