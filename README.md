@@ -1,3 +1,6 @@
+# PYTHON UTF-8
+`#!-*- conding: utf8 -*-`
+
 # PYTHON3 TO PYTHON ALIAS
 `sudo echo "alias python='python3'" >> ~/.bashrc && source ~/.bashrc`
 
