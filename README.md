@@ -1,3 +1,11 @@
+# Python SublimeText run
+
+``{
+    "cmd": ["python3", "-i", "-u", "$file"],
+    "file_regex": "^[ ]File \"(...?)\", line ([0-9]*)",
+    "selector": "source.python"
+ }``
+
 # PYTHON UTF-8
 `#!-*- conding: utf8 -*-`
 
