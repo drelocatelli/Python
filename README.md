@@ -1,10 +1,16 @@
 # Python SublimeText run
 
+Tools > Build System > new build system:
+
 ``{
     "cmd": ["python3", "-i", "-u", "$file"],
     "file_regex": "^[ ]File \"(...?)\", line ([0-9]*)",
     "selector": "source.python"
  }``
+ 
+ Tools > build system > your_build
+ ctrl + B
+ 
 
 # PYTHON UTF-8
 `#!-*- conding: utf8 -*-`
