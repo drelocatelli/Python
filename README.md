@@ -1,3 +1,6 @@
+# Python version execute
+`which python3`
+
 # Python SublimeText run
 
 Tools > Build System > new build system:
