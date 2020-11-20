@@ -1,4 +1,4 @@
-# Python version execute
+# Python path version
 `which python3`
 
 # Python SublimeText run
