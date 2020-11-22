@@ -14,10 +14,4 @@ print('\n')
 
 for item in lista_pesquisa:
     print('"%s"' % (item))
-
-    if re.search(item, texto):
-        print('Palavra encontrada.')
-        print('\n')
-    else:
-        print('Palavra não encontrada.')
-        print('\n')
+    print('Palavra encontrada.\n') if re.search(item, texto) else print('Palavra não encontrada\n')
