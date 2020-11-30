@@ -13,14 +13,20 @@ while 1:
 
         'mes': input('Digite um mês: '),
 
+        'semana': input('Dia da semana: '),
+
         'ano': input('Digite um ano: ')
     }
 
-    # Se nulo = 0
     for k in cron.keys():
-        if( cron[k] == '' ):
+        # Semana nulo = ?
+        if ( k == 'semana' ):
+            if( cron[k] == '' ):
+                cron[k] = '?'
+        # Se nulo = 0
+        elif( cron[k] == '' ):
             cron[k] = '0'
-    
+        
     
     # Replace se há zeros menor do que 10
     for i in cron:
@@ -31,12 +37,13 @@ while 1:
     # Fuso não pode ter asterisco
     if( cron['fuso'] == "*" ):
         cron['fuso'] = 0
+
     
     # Soma da hora com o fuso
     cron['hora'] = int(cron['fuso']) + int(cron['hora'])
 
 
-    print(f"\n\nExpressão CRON:\n{cron['minuto']} {cron['hora']} {cron['dia']} {cron['mes']} ? {cron['ano']}\n\n")
+    print(f"\n\nExpressão CRON:\n{cron['minuto']} {cron['hora']} {cron['dia']} {cron['mes']} {cron['semana']} {cron['ano']}\n\n")
  
     input("Continuar? $ ")
     
