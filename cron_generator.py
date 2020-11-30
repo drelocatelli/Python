@@ -2,44 +2,43 @@ import os
 while 1:
     print("Para gerar o cron digite os valores numéricos.\n- Nulos serão considerados como Zero.")
 
-    minuto = input("Digite um minuto: ")
+    cron = {
+        'minuto': input('Digite um minuto: '),
 
-    hora = input("Digite um horário: ")
+        'hora': input('Digite um hora: '),
     
-    fuso = input("Digite a diferença de fuso horário: ")
+        'fuso': input('Digite a diferença de fuso horário: '),
 
-    dia = input("Digite um dia: ")
+        'dia': input('Digite um dia: '),
 
-    mes = input("Digite um mês: ")
+        'mes': input('Digite um mês: '),
 
-    ano = input("Digite um ano: ")
+        'ano': input('Digite um ano: ')
+    }
 
+
+    # Se nulo = 0
+    for k in cron.keys():
+        if( cron[k] == '' ):
+            cron[k] = '0'
+    
     
     # Replace se há zeros menor do que 10
-           
-    if(int(fuso) < 10 and int(fuso) != 0):
-        fuso = fuso.replace('0','')
+    for i in cron:
+        if( cron[i].isnumeric() and int(cron[i]) != 0 ):
+            cron[i] = cron[i].replace('0','')
+
+
+    # Fuso não pode ter asterisco
+    if( cron['fuso'] == "*" ):
+        cron['fuso'] = 0
     
-    if(hora.isnumeric()):
-        if (int(hora) < 10 and int(hora) != 0):
-            hora = str(hora).replace('0','')
-        hora = int(fuso) + int(hora)
-        
-    if(minuto.isnumeric()):    
-        if(int(minuto) < 10 and int(minuto) != 0):
-            minuto = minuto.replace('0','')
-            
-    if(dia.isnumeric()):    
-        if(int(dia) < 10 and int(dia) != 0):
-            dia = dia.replace('0','')
-            
-    if(mes.isnumeric()):    
-        if(int(mes) < 10 and int(mes) != 0):
-            mes = mes.replace('0','')
+    # Soma da hora com o fuso
+    cron['hora'] = int(cron['fuso']) + int(cron['hora'])
 
 
-    print(f"\n\nExpressão CRON:\n{minuto} {hora} {dia} {mes} ? {ano}\n\n")
-
+    print(f"\n\nExpressão CRON:\n{cron['minuto']} {cron['hora']} {cron['dia']} {cron['mes']} ? {cron['ano']}\n\n")
+ 
     input("Continuar? $ ")
     
     os.system("clear -x")
