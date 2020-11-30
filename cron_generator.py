@@ -1,4 +1,4 @@
-import os
+import os, subprocess
 while 1:
     print("Para gerar o cron digite os valores numéricos.\n- Nulos serão considerados como Zero.")
 
@@ -15,7 +15,6 @@ while 1:
 
         'ano': input('Digite um ano: ')
     }
-
 
     # Se nulo = 0
     for k in cron.keys():
