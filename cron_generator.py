@@ -15,7 +15,8 @@ while 1:
 
         'semana': input('Dia da semana: '),
 
-        'ano': input('Digite um ano: ')
+        'ano': input('Digite um ano: '),
+
     }
 
     for k in cron.keys():
@@ -38,9 +39,11 @@ while 1:
     if( cron['fuso'] == "*" ):
         cron['fuso'] = 0
 
-    
-    # Soma da hora com o fuso
-    cron['hora'] = int(cron['fuso']) + int(cron['hora'])
+    # Soma da hora
+    if( int(cron['hora']) == 0 ):
+        cron['hora'] = '0'
+    elif( int(cron['hora']) < 23):
+        cron['hora'] = int(cron['fuso']) + int(cron['hora'])      
 
 
     print(f"\n\nExpressão CRON:\n{cron['minuto']} {cron['hora']} {cron['dia']} {cron['mes']} {cron['semana']} {cron['ano']}\n\n")
