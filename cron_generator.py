@@ -1,6 +1,11 @@
 import os, subprocess
 while 1:
     print("Para gerar o cron digite os valores numéricos.\n- Nulos serão considerados como Zero.")
+    date = str(subprocess.getoutput("date '+%M %H %d %m %a %Y'"))
+    print('Data de hoje em formato CRON: ')
+    print('m H D M S A')
+    print(date.upper())
+    print('\n')
 
     cron = {
         'minuto': input('Digite um minuto: '),
@@ -18,6 +23,8 @@ while 1:
         'ano': input('Digite um ano: '),
 
     }
+
+    print(date)
 
     for k in cron.keys():
         # Semana nulo = ?
@@ -46,7 +53,7 @@ while 1:
         cron['hora'] = int(cron['fuso']) + int(cron['hora'])      
 
 
-    print(f"\n\nExpressão CRON:\n{cron['minuto']} {cron['hora']} {cron['dia']} {cron['mes']} {cron['semana']} {cron['ano']}\n\n")
+    print(f"\033[1;33m\n\nExpressão CRON:\n{cron['minuto']} {cron['hora']} {cron['dia']} {cron['mes']} {cron['semana']} {cron['ano']}\n\n\033[0m")
  
     input("Continuar? $ ")
     
