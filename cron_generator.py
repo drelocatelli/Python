@@ -24,8 +24,6 @@ while 1:
 
     }
 
-    print(date)
-
     for k in cron.keys():
         # Semana nulo = ?
         if ( k == 'semana' ):
