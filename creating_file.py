@@ -1,15 +1,17 @@
+#!/usr/bin/env python3
 import os
 
 # verificando se existe diretório
-print(os.path.exists("assets/creating_file/"))
+file = str('assets/creating_file/')
+print(os.path.exists(file))
 
-if os.path.exists("assets/creating_file/") == False:
+if bool(os.path.exists(file)) == False:
     # cria diretorio
-    os.mkdir("assets/creating_file")
+    os.system('mkdir -p '+(file))
     # cria arquivo no diretorio
-    f = open("assets/creating_file/example.txt", "x")
-    f.write("Arquivo e texto adicionados!")
+    f = open(file+'example.txt', 'x')
+    f.write('Arquivo e texto adicionados!')
 else:
     # adiciona texto
-    f = open("assets/creating_file/example.txt", "w")
-    f.write("Texto adicionado!")
+    f = open(file+'example.txt', 'w')
+    f.write('Texto adicionado!')
