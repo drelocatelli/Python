@@ -18,7 +18,6 @@ def search(what):
         response = browser.find_element_by_xpath('//*[@id="kp-wp-tab-overview"]/div[1]/div/div/div/div[1]/div/div/div/div/span[1]')
         print('Aguardando pesquisa...')
         os.system('sleep 3')
-        os.system('clear')
         print(response.text)
         os.system('echo %s > latest_search.txt' %(response.text))
     except Exception:
