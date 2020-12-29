@@ -8,7 +8,7 @@ options.headless = True # não mostra navegador
 browser = webdriver.Chrome(executable_path="./browser/chromedriver", options=options)
 options = browser.maximize_window()
 
-# search
+# Search
 def search(what):
     try:
         browser.get('http://www.google.com.br/')
