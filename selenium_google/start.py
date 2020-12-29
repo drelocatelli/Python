@@ -8,7 +8,7 @@ options.headless = True # não mostra navegador
 browser = webdriver.Chrome(executable_path="./browser/chromedriver", options=options)
 options = browser.maximize_window()
 
-# Search
+# search
 def search(what):
     try:
         browser.get('http://www.google.com.br/')
@@ -17,14 +17,15 @@ def search(what):
         btnSearch = browser.find_element_by_xpath('//*[@id="tsf"]/div[2]/div[1]/div[3]/center/input[1]').click()
         response = browser.find_element_by_xpath('//*[@id="kp-wp-tab-overview"]/div[1]/div/div/div/div[1]/div/div/div/div/span[1]')
         print('Aguardando pesquisa...')
-        os.system('sleep 5')
+        os.system('sleep 3')
+        os.system('clear')
         print(response.text)
-    except TimeoutException:
-        print('Erro de conexão, tente novamente.')
+        os.system('echo %s > latest_search.txt' %(response.text))
+    except Exception:
+        print('Nada foi encontrado!')
 
 # Application Starts
 request = input('Pesquisar Google: ')
 search(request)
-
 
 browser.quit()
